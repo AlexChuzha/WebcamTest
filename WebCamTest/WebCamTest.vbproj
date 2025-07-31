@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E700167D-B229-4FE6-ABF3-C5DEBDF6F407}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WebCamTest.My.MyApplication</StartupObject>
+    <RootNamespace>WebCamTest</RootNamespace>
+    <AssemblyName>WebCamTest</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WindowsApp1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WindowsApp1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v24.2" />
+    <Reference Include="DevExpress.Data.v24.2" />
+    <Reference Include="DevExpress.Data.Desktop.v24.2" />
+    <Reference Include="DevExpress.Utils.v24.2" />
+    <Reference Include="DevExpress.XtraBars.v24.2" />
+    <Reference Include="DevExpress.Sparkline.v24.2.Core" />
+    <Reference Include="DevExpress.XtraEditors.v24.2" />
+    <Reference Include="DevExpress.Printing.v24.2.Core" />
+    <Reference Include="DevExpress.Drawing.v24.2" />
+    <Reference Include="DevExpress.XtraLayout.v24.2, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="hasp_net_windows, Version=7.5.1.61541, Culture=neutral, PublicKeyToken=56120be447701319, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\PassportVision SDK\Binary\hasp_net_windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=8.0.0.2, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.8.0.2\lib\net462\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=8.0.0.2, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.8.0.2\lib\net462\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\PassportVision SDK\Binary\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PassportVision.Library.ComSdk, Version=2.1.0.358, Culture=neutral, PublicKeyToken=fac4163351f826c7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\PassportVision SDK\Binary\PassportVision.Library.ComSdk.dll</HintPath>
+    </Reference>
+    <Reference Include="PassportVision.Library.Sdk, Version=2.1.0.358, Culture=neutral, PublicKeyToken=fac4163351f826c7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\PassportVision SDK\Binary\PassportVision.Library.Sdk.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=8.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.8.0.1\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TesseractOCR, Version=5.4.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\TesseractOCR.5.4.2\lib\net461\TesseractOCR.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PictureSourceInfo.vb" />
+    <Compile Include="PictureSourceType.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Binary\NLog.config" />
+    <None Include="Binary\tessdata\eng.traineddata" />
+    <None Include="Binary\tessdata\eng.user-words" />
+    <None Include="Binary\tessdata\rus.traineddata" />
+    <None Include="Binary\tessdata\rus.user-words" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Binary\apidsp_windows.dll" />
+    <Content Include="Binary\apidsp_windows_x64.dll" />
+    <Content Include="Binary\CommonMark.dll" />
+    <Content Include="Binary\CommonWin32.dll" />
+    <Content Include="Binary\CsvHelper.dll" />
+    <Content Include="Binary\Emgu.CV.World.dll" />
+    <Content Include="Binary\FastColoredTextBox.dll" />
+    <Content Include="Binary\hasp_net_windows.dll" />
+    <Content Include="Binary\hasp_windows_106278.dll" />
+    <Content Include="Binary\hasp_windows_x64_106278.dll" />
+    <Content Include="Binary\Interop.WIA.dll" />
+    <Content Include="Binary\Ionic.Zip.dll" />
+    <Content Include="Binary\License.dll" />
+    <Content Include="Binary\ManagedWinapi.dll" />
+    <Content Include="Binary\Newtonsoft.Json.dll" />
+    <Content Include="Binary\NLog.dll" />
+    <Content Include="Binary\NPetrovich.dll" />
+    <Content Include="Binary\NTwain.dll" />
+    <Content Include="Binary\PassportVision.Documents.RussianForeignPassport.dll" />
+    <Content Include="Binary\PassportVision.Documents.RussianForeignPassport.Recognition.dll" />
+    <Content Include="Binary\PassportVision.Documents.RussianInsuranceCertificate.dll" />
+    <Content Include="Binary\PassportVision.Documents.RussianInsuranceCertificate.Recognition.dll" />
+    <Content Include="Binary\PassportVision.Documents.RussianPassport.CheckInvalidNumber.dll" />
+    <Content Include="Binary\PassportVision.Documents.RussianPassport.dll" />
+    <Content Include="Binary\PassportVision.Documents.RussianPassport.Recognition.dll" />
+    <Content Include="Binary\PassportVision.Library.AutoCvSharp.dll" />
+    <Content Include="Binary\PassportVision.Library.Common.dll" />
+    <Content Include="Binary\PassportVision.Library.ComSdk.dll" />
+    <Content Include="Binary\PassportVision.Library.Core.dll" />
+    <Content Include="Binary\PassportVision.Library.Core.Wpf.dll" />
+    <Content Include="Binary\PassportVision.Library.Recognition.dll" />
+    <Content Include="Binary\PassportVision.Library.RemoteRecognition.dll" />
+    <Content Include="Binary\PassportVision.Library.Sdk.dll" />
+    <Content Include="Binary\PassportVision.Scanners.Base.dll" />
+    <Content Include="Binary\PassportVision.Scanners.Twain.dll" />
+    <Content Include="Binary\PassportVision.Scanners.Wia.dll" />
+    <Content Include="Binary\PassportVision.Server.Api.dll" />
+    <Content Include="Binary\PassportVision.Server.Client.dll" />
+    <Content Include="Binary\PassportVision.Tools.AboutTool.Wpf.dll" />
+    <Content Include="Binary\PassportVision.Tools.BlackBoxTool.Wpf.dll" />
+    <Content Include="Binary\PassportVision.Tools.ControlPanelTool.Wpf.dll" />
+    <Content Include="Binary\PassportVision.Tools.HotkeyTool.Wpf.dll" />
+    <Content Include="Binary\PassportVision.Tools.LicenseTool.Wpf.dll" />
+    <Content Include="Binary\PassportVision.Tools.PluginTool.Wpf.dll" />
+    <Content Include="Binary\PassportVision.Tools.ScannerManagerTool.Wpf.dll" />
+    <Content Include="Binary\PassportVision.Tools.ScannerSwitchTool.Logic.dll" />
+    <Content Include="Binary\PassportVision.Tools.ScannerSwitchTool.Wpf.dll" />
+    <Content Include="Binary\PassportVision.Tools.SettingTool.Wpf.dll" />
+    <Content Include="Binary\PassportVision.Tools.VerificationTool.Wpf.dll" />
+    <Content Include="Binary\PassportVision.Utilities.LicenseManager.exe" />
+    <Content Include="Binary\Spire.License.dll" />
+    <Content Include="Binary\Spire.Pdf.dll" />
+    <Content Include="Binary\System.Net.Http.dll" />
+    <Content Include="Binary\System.Net.Http.Formatting.dll" />
+    <Content Include="Binary\System.Net.Http.WebRequest.dll" />
+    <Content Include="Binary\Tesseract.dll" />
+    <Content Include="Binary\x64\cvextern.dll" />
+    <Content Include="Binary\x64\liblept172.dll" />
+    <Content Include="Binary\x64\libtesseract304.dll" />
+    <Content Include="Binary\x64\msvcp120.dll" />
+    <Content Include="Binary\x64\msvcr120.dll" />
+    <Content Include="Binary\x86\cvextern.dll" />
+    <Content Include="Binary\x86\liblept172.dll" />
+    <Content Include="Binary\x86\libtesseract304.dll" />
+    <Content Include="Binary\x86\msvcp120.dll" />
+    <Content Include="Binary\x86\msvcr120.dll" />
+    <Content Include="Images\RussianPassport.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="..\packages\TesseractOCR.5.4.2\build\TesseractOCR.targets" Condition="Exists('..\packages\TesseractOCR.5.4.2\build\TesseractOCR.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Данный проект ссылается на пакеты NuGet, отсутствующие на этом компьютере. Используйте восстановление пакетов NuGet, чтобы скачать их.  Дополнительную информацию см. по адресу: http://go.microsoft.com/fwlink/?LinkID=322105. Отсутствует следующий файл: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\TesseractOCR.5.4.2\build\TesseractOCR.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\TesseractOCR.5.4.2\build\TesseractOCR.targets'))" />
+  </Target>
+</Project>

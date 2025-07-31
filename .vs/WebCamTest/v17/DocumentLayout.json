@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chuzh\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\WebCamTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E700167D-B229-4FE6-ABF3-C5DEBDF6F407}|WebCamTest\\WebCamTest.vbproj|c:\\users\\chuzh\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\webcamtest\\webcamtest\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{E700167D-B229-4FE6-ABF3-C5DEBDF6F407}|WebCamTest\\WebCamTest.vbproj|solutionrelative:webcamtest\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E700167D-B229-4FE6-ABF3-C5DEBDF6F407}|WebCamTest\\WebCamTest.vbproj|C:\\Users\\chuzh\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\WebCamTest\\webcamtest\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{E700167D-B229-4FE6-ABF3-C5DEBDF6F407}|WebCamTest\\WebCamTest.vbproj|solutionrelative:webcamtest\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E700167D-B229-4FE6-ABF3-C5DEBDF6F407}|WebCamTest\\WebCamTest.vbproj|C:\\Users\\chuzh\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\WebCamTest\\webcamtest\\picturesourceinfo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{E700167D-B229-4FE6-ABF3-C5DEBDF6F407}|WebCamTest\\WebCamTest.vbproj|solutionrelative:webcamtest\\picturesourceinfo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E700167D-B229-4FE6-ABF3-C5DEBDF6F407}|WebCamTest\\WebCamTest.vbproj|C:\\Users\\chuzh\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\WebCamTest\\webcamtest\\picturesourcetype.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{E700167D-B229-4FE6-ABF3-C5DEBDF6F407}|WebCamTest\\WebCamTest.vbproj|solutionrelative:webcamtest\\picturesourcetype.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PictureSourceType.vb",
+              "DocumentMoniker": "C:\\Users\\chuzh\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\WebCamTest\\WebCamTest\\PictureSourceType.vb",
+              "RelativeDocumentMoniker": "WebCamTest\\PictureSourceType.vb",
+              "ToolTip": "C:\\Users\\chuzh\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\WebCamTest\\WebCamTest\\PictureSourceType.vb",
+              "RelativeToolTip": "WebCamTest\\PictureSourceType.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-22T12:31:32.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PictureSourceInfo.vb",
+              "DocumentMoniker": "C:\\Users\\chuzh\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\WebCamTest\\WebCamTest\\PictureSourceInfo.vb",
+              "RelativeDocumentMoniker": "WebCamTest\\PictureSourceInfo.vb",
+              "ToolTip": "C:\\Users\\chuzh\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\WebCamTest\\WebCamTest\\PictureSourceInfo.vb",
+              "RelativeToolTip": "WebCamTest\\PictureSourceInfo.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-22T12:22:39.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\chuzh\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\WebCamTest\\WebCamTest\\Form1.vb",
+              "RelativeDocumentMoniker": "WebCamTest\\Form1.vb",
+              "ToolTip": "C:\\Users\\chuzh\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\WebCamTest\\WebCamTest\\Form1.vb",
+              "RelativeToolTip": "WebCamTest\\Form1.vb",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAqwE8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-22T11:31:26.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\chuzh\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\WebCamTest\\WebCamTest\\Form1.vb",
+              "RelativeDocumentMoniker": "WebCamTest\\Form1.vb",
+              "ToolTip": "C:\\Users\\chuzh\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\WebCamTest\\WebCamTest\\Form1.vb [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WebCamTest\\Form1.vb [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-22T07:48:26.382Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
